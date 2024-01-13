@@ -1,0 +1,231 @@
+body{   
+  margin:0;
+   }  
+   footer{
+    display: flex;    background-color: gray;
+    padding-bottom: 40px;   
+	}
+   footer div{ 
+   width: 15%;
+    padding-left: 5%;  
+	}
+   footer div a{   
+   color: white;
+   text-decoration:none;   
+   font-weight: bold;
+   }  
+   footer div a:hover{
+    color: blue;    
+	font-weight: bold;
+   } 
+   header{
+ display:flex;   
+ flex-direction:column;
+}
+.fixed a,.back a{
+ color:white; 
+ text-decoration:none;
+}
+.back{
+ display:flex; 
+ height:30px;
+}
+.fixed {
+    display: flex;   
+	justify-content:center;
+	padding-right:280px;
+}
+.fixed a{
+  padding-right:100px;
+  }
+.back a{
+	padding-left:37px;
+}
+.back,.fixed{
+ background-color:Gray;
+ }
+.pap{ 
+    display: flex;
+    align-items: center;   
+	justify-content: center;
+    align-content: flex-start;   
+	flex-direction: column;
+}
+.pot{
+ display: flex;    
+ flex-direction: column;
+    align-content: stretch;    
+	align-items: center;
+   justify-content: space-evenly;
+}
+.q{ 
+ margin-left:650px
+}
+.h{
+ margin-left:650px
+ }
+.r{
+   	margin-left:1050px
+}
+.t{
+ margin-left:730px}
+.reklama{
+	display: flex;
+ justify-content: center;
+ }
+.fohoto{
+  	display: flex;
+ justify-content: center;
+ }
+.lolha{
+	display: flex;
+ justify-content: center;
+ }
+.lop{    
+margin-left: 15%;
+}
+.kot{
+    width: 100%;
+    height: 400px; display:flex;
+    animation: avto 5s infinite;
+}
+.shopblock{ 
+display: flex;
+    flex-wrap: wrap;    
+	flex-direction: row;
+    align-content: center;     
+	justify-content: flex-end;
+}
+.shopblock div{
+ width:300px; 
+ height:300px;
+ padding: 10px 10px 10px 50px; 
+ position:relative;
+}
+.shopblock div:hover{
+	box-shadow: 0 0 8px #262626;
+}
+.shopblock div img{
+ width:250px;
+ }
+.blockol{
+	display: flex;
+    flex-wrap: wrap;    
+	flex-direction: row;
+    align-content: center;    
+	justify-content: flex-end;
+}
+.blockol div{
+ width:300px;
+ height:300px;
+ padding: 10px 10px 10px 50px;  
+ position:relative;
+}
+.blockol div:hover{
+     box-shadow: 0 0 8px #262626;
+}
+.blockol div img{
+width:250px;
+}
+.blockol p{
+ position:relative; 
+ left:-48%;
+}
+.hopblock{
+  display: flex;   
+  flex-wrap: wrap;
+    flex-direction: row;    
+	align-content: center;
+     justify-content: flex-end;
+}
+.hopblock div{
+ width:300px;
+ height:300px; padding: 10px 10px 10px 50px; 
+ position:relative;
+}
+.discount_lable{ 
+    display:block;
+    position: absolute;   
+	right: 0px;
+    top: 0px;    
+	padding: 2px 9px;
+    background: #1c69d4;  
+	color: #fff;
+    font-size: 13px;   
+	font-weight: bold;
+}
+.imag{
+     display: flex;  
+	 position:relative;
+    margin-bottom: 20px;    
+	margin-right: 50px;
+    flex-direction: column;    
+	align-items: flex-end;
+}
+.imag div{
+ width:300px; 
+ height:300px;
+ padding: 10px 10px 10px 50px;
+ position:relative; 
+}
+.imag div:hover{
+     box-shadow: 0 0 8px #262626;
+}
+.hopblock div:hover{     
+box-shadow: 0 0 8px #262626;
+}
+.hopblock div img{
+ width:250px;
+}
+.imag div img{ 
+ width:250px;
+}
+.imag p{
+ position:relative; 
+ left:-48%;
+}
+.tyuo{ display: flex;
+    flex-wrap: wrap;   
+	flex-direction: row;
+    align-content: center;     
+	justify-content: flex-end;
+}
+.tyuo div{
+ width:300px; 
+ height:300px;
+ padding: 10px 10px 10px 50px; 
+ position:relative;
+}
+.tyuo div:hover{
+     box-shadow: 0 0 8px #262626;
+}
+.tyuo div img{ 
+ width:250px;
+}
+.laptop1{
+     display: flex;    
+	 flex-direction: row;
+    flex-wrap: nowrap;   
+	justify-content: space-around;
+    align-items: center;
+}
+.laptop div{ 
+ width:300px;
+ height:300px;
+ padding: 10px 10px 10px 50px; 
+ position:relative;
+}
+.laptop div:hover{
+     box-shadow: 0 0 8px #262626;
+}
+.laptop div img{ 
+  width:250px;
+}
+@keyframes avto{
+ 0% {  background:url(https://shop.bmw.ua/image/cache/catalog/AWT_support_teaser_shop-1270x420.jpg);
+  background-repeat:no-repeat; }
+ 50% {  background:url(https://shop.bmw.ua/image/cache/catalog/micro_wide_1270w-1270x420.jpg);
+  background-repeat:no-repeat; }
+ 100%{  background:url("https://shop.bmw.ua/image/cache/catalog/shop_home_bmw_1270x420%20(12)-1270x420.jpg");
+  background-repeat:no-repeat; }
+}
